@@ -1,7 +1,7 @@
-import First from './first';
-import Second from './second';
+import Product from './product';
+import Onboarding from './onboarding';
 
 export default [
-	{path: '/first', element: First, title: 'First title'},
-	{path: '/second', element: Second, title: 'Second title'}
+	{path: '/product', element: Product, title: 'Product Search'},
+	{path: '/onboarding', element: Onboarding, title: 'Onboarding'}
 ]
